@@ -1,0 +1,697 @@
+\documentclass[12pt]{article}
+\usepackage[margin=30 mm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{paralist}
+\usepackage{graphicx,wrapfig,lipsum}
+\title{} 
+\author{} 
+\date{}
+\begin{document}
+	\section{Number of variable(s): 1}
+	\begin{verbatim}
+		[1] "Predictor:  Team ; Response:  aerialWonPerGame"
+		
+		[[1]][[1]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0157" "0.0124"       "0.0283" 
+		
+		
+		[[1]][[2]]
+		[[1]][[2]][[1]]
+		[1] "Predictor:  Manager ; Response:  aerialWonPerGame"
+		
+		[[1]][[2]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0359" "0.0327"       "8e-04"  
+		
+		
+		[[1]][[3]]
+		[[1]][[3]][[1]]
+		[1] "Predictor:  Ligue ; Response:  aerialWonPerGame"
+		
+		[[1]][[3]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0052" "0.0019"       "0.2081" 
+		
+		
+		[[1]][[4]]
+		[[1]][[4]][[1]]
+		[1] "Predictor:  Nationality ; Response:  aerialWonPerGame"
+		
+		[[1]][[4]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0077" "0.0045"       "0.1241" 
+		
+		
+		[[1]][[5]]
+		[[1]][[5]][[1]]
+		[1] "Predictor:  Height ; Response:  aerialWonPerGame"
+		
+		[[1]][[5]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3357" "0.3335"       "0"      
+		
+		
+		[[1]][[6]]
+		[[1]][[6]][[1]]
+		[1] "Predictor:  Weight ; Response:  aerialWonPerGame"
+		
+		[[1]][[6]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.2034" "0.2008"       "0"      
+		
+		
+		[[1]][[7]]
+		[[1]][[7]][[1]]
+		[1] "Predictor:  BMI ; Response:  aerialWonPerGame"
+		
+		[[1]][[7]][[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "2e-04" "-0.0031"      "0.8197" 
+		
+		
+		[[1]][[8]]
+		[[1]][[8]][[1]]
+		[1] "Predictor:  Age ; Response:  aerialWonPerGame"
+		
+		[[1]][[8]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0103" "0.0071"       "0.0756" 
+		
+		
+		[[1]][[9]]
+		[[1]][[9]][[1]]
+		[1] "Predictor:  MatchPlayed ; Response:  aerialWonPerGame"
+		
+		[[1]][[9]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0012" "-0.002"       "0.5395" 
+		
+		
+		[[1]][[10]]
+		[[1]][[10]][[1]]
+		[1] "Predictor:  SubOn ; Response:  aerialWonPerGame"
+		
+		[[1]][[10]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0052" "0.0019"       "0.2099" 
+		
+		
+		[[1]][[11]]
+		[[1]][[11]][[1]]
+		[1] "Predictor:  MinutesPlayed ; Response:  aerialWonPerGame"
+		
+		[[1]][[11]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0109" "0.0076"       "0.0681" 
+		
+		
+		[[1]][[12]]
+		[[1]][[12]][[1]]
+		[1] "Predictor:  RedCard ; Response:  aerialWonPerGame"
+		
+		[[1]][[12]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0016" "-0.0016"      "0.4797" 
+		
+		
+		[[1]][[13]]
+		[[1]][[13]][[1]]
+		[1] "Predictor:  YellowCard ; Response:  aerialWonPerGame"
+		
+		[[1]][[13]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.0229" "0.0197"       "0.008"  
+		
+		
+		[[1]][[14]]
+		[[1]][[14]][[1]]
+		[1] "Predictor:  FoulsDrawn ; Response:  aerialWonPerGame"
+		
+		[[1]][[14]][[2]]
+		[,1]   [,2]           [,3]     
+		[1,] "R^2"  "Adjusted R^2" "p-value"
+		[2,] "0.01" "0.0067"       "0.0804" 
+		
+		
+		[[1]][[15]]
+		[[1]][[15]][[1]]
+		[1] "Predictor:  FoulsCommited ; Response:  aerialWonPerGame"
+		
+		[[1]][[15]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.2049" "0.2023"       "0"      
+		
+		
+		[[1]][[16]]
+		[[1]][[16]][[1]]
+		[1] "Predictor:  Offside ; Response:  aerialWonPerGame"
+		
+		[[1]][[16]][[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.1396" "0.1367"       "0"      
+		
+		
+		[[1]][[17]]
+		[[1]][[17]][[1]]
+		[1] "Predictor:  Injury ; Response:  aerialWonPerGame"
+		
+		[[1]][[17]][[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "8e-04" "-0.0025"      "0.6269" 
+		
+	\end{verbatim}
+	Highest Ajusted $ R^2 $ is 0.3335 corresponding to $ Height $.
+	
+	\section{Number of variable(s): 2}
+	\begin{verbatim}
+		[1] "Predictor:  Height and Team ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3468" "0.3425"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and Manager ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3518" "0.3475"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and Ligue ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3433" "0.339"        "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and Weight ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3389" "0.3346"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and BMI ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.339" "0.3347"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and Age ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3465" "0.3422"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and SubOn ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3444" "0.3401"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and MinutesPlayed ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.343" "0.3387"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and YellowCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3579" "0.3537"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and FoulsDrawn ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.3544" "0.3502"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and FoulsCommited ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.446" "0.4424"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height and Offside ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4036" "0.3997"       "0"      
+		
+		
+	\end{verbatim}
+	Highest Ajusted $ R^2 $ is 0.4424 corresponding to $ Height $ and $ FoulsCommited $.
+	
+	\section{Number of variable(s): 3}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited and Team ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4584" "0.4531"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and Manager ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4631" "0.4578"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and Ligue ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4532" "0.4478"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and Age ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4582" "0.4528"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and MatchPlayed ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4612" "0.4559"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and MinutesPlayed ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4539" "0.4485"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and YellowCard ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4505" "0.445"        "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and FoulsDrawn ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4537" "0.4482"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited and Injury ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4522" "0.4468"       "0"    
+	\end{verbatim}
+	Highest Ajusted $ R^2 $ is 0.4578 corresponding to $ Height $, $ FoulsCommited $ and $ Manager $.
+	
+	\section{Number of variable(s): 4}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager and Ligue ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4783" "0.4714"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager and Age ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4752" "0.4682"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager and MatchPlayed ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4684" "0.4613"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager and MinutesPlayed ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4653" "0.4583"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager and YellowCard ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.467" "0.4599"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager and FoulsDrawn ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4685" "0.4614"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager and Injury ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4753" "0.4684"       "0"      
+		
+	\end{verbatim}
+	Highest Ajusted $ R^2 $ is 0.4714 corresponding to $ Height $, $ FoulsCommited $, $ Manager $ and $ Ligue $.
+	
+	\section{Number of variable(s): 5}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and Team ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4816" "0.473"        "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and Age ; 
+		Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4903" "0.4818"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and 
+		MatchPlayed ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4857" "0.4771"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and 
+		MinutesPlayed ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4817" "0.473"        "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and 
+		YellowCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4804" "0.4718"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and 
+		FoulsDrawn ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4836" "0.475"        "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue and Injury 
+		; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4875" "0.479"        "0"      
+		
+		
+	\end{verbatim}
+	Highest Ajusted $ R^2 $ is 0.4818 corresponding to $ Height $, $ FoulsCommited $, $ Manager $, $ Ligue $ and $ Age $.
+	
+	\section{Number of variable(s): 6}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		Team ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4929" "0.4828"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		MatchPlayed ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4982" "0.4882"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		MinutesPlayed ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4947" "0.4846"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		RedCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4924" "0.4822"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		YellowCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4939" "0.4838"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		FoulsDrawn ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4952" "0.4851"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age and 
+		Injury ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.4978" "0.4877"       "0"      
+		
+		
+	\end{verbatim}
+		Highest Ajusted $ R^2 $ is 0.4882 corresponding to $ Height $ , $ FoulsCommited $ , $ Manager $ , $ Ligue $ , $ Age $ and 
+		$ MatchPlayed $.
+	
+	\section{Number of variable(s): 7}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age , 
+		MatchPlayed and RedCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5008" "0.4891"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age , 
+		MatchPlayed and YellowCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5011" "0.4895"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age , 
+		MatchPlayed and FoulsDrawn ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5005" "0.4888"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Ligue , Age , 
+		MatchPlayed and Injury ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5007" "0.489"        "0"      
+		
+	\end{verbatim}
+		Highest Ajusted $ R^2 $ is 0.4895 corresponding to $Height$ , $FoulsCommited$ , $Manager$ , $Ligue$ , $Age$ , 
+		$ MatchPlayed $ and $ YellowCard $.
+	
+	\section{Number of variable(s): 8}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , 
+		MatchPlayed , YellowCard and RedCard ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.503" "0.4897"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , 
+		MatchPlayed , YellowCard and FoulsDrawn ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.503" "0.4897"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , 
+		MatchPlayed , YellowCard and Injury ; Response:  aerialWonPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5036" "0.4902"       "0"    
+	\end{verbatim}
+		Highest Ajusted $ R^2 $ is 0.4902 corresponding to $Height$ , $FoulsCommited$ , $Manager$ , $Ligue$ , $Age$ , 
+		$ MatchPlayed $, $ YellowCard $ and $ Injury $.
+	
+	\section{Number of variable(s): 9}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , MatchPlayed , YellowCard , Injury and Team ; Response:  shotsPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5055" "0.4905"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , MatchPlayed , YellowCard , Injury and RedCard ; Response:  shotsPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5057" "0.4907"       "0"      
+		
+		[[1]]
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , MatchPlayed , YellowCard , Injury and FoulsDrawn ; Response:  shotsPerGame"
+		
+		[[2]]
+		[,1]     [,2]           [,3]     
+		[1,] "R^2"    "Adjusted R^2" "p-value"
+		[2,] "0.5061" "0.4911"       "0"      
+		
+		
+	\end{verbatim}
+		Highest Ajusted $ R^2 $ is 0.4911 corresponding to $Height$ , $FoulsCommited$ , $Manager$ , $Ligue$ , $Age$ , 
+		$ MatchPlayed $, $ YellowCard $, $ Injury $ and $ FoulsDrawn $.
+	
+	\section{Number of variable(s): 10}
+	\begin{verbatim}
+		[1] "Predictor:  Height , FoulsCommited , Manager , Age , Ligue , 
+		MatchPlayed , YellowCard , Injury , FoulsDrawn and Team ; Response:  
+		aerialWonPerGame"
+		
+		[[2]]
+		[,1]    [,2]           [,3]     
+		[1,] "R^2"   "Adjusted R^2" "p-value"
+		[2,] "0.508" "0.4913"       "0"      
+		
+		
+	\end{verbatim}
+	Highest Ajusted $ R^2 $ is 0.4546 corresponding to $Height$ , $FoulsCommited$ , $Manager$ , $Ligue$ , $Age$ , 
+	$ MatchPlayed $, $ YellowCard $, $ Injury $, $ FoulsDrawn $ and $ Team $.
+	
+	\section{Number of variable(s): 11}
+	\begin{verbatim}
+		NA
+	\end{verbatim}
+	
+\end{document}

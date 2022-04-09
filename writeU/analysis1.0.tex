@@ -1,0 +1,2212 @@
+\documentclass[12pt]{article}
+\usepackage[margin=30 mm]{geometry}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{paralist}
+\usepackage{chngcntr}
+\usepackage{adjustbox}
+\counterwithin{table}{subsubsection}
+\counterwithin{figure}{subsection}
+\usepackage{float}
+\usepackage{graphicx,wrapfig,lipsum}
+\title{} 
+\author{} 
+\date{}
+\begin{document}
+\section{Study the effects of each non-skilled variable on the performance of football strikers}
+\label{var1}
+\subsection{Introduction}
+In this chapter we have studied the effect of different non-skilled variables i.e., $ Team $, $ Manager $, $ Ligue $, $ Nationality $, $ Height $, $ Weight $, $ BMI $, $ Age $, $ MatchPlayed $, $ SubOn $, $ MinutesPlayed $, $ RedCard $, $ YellowCard $, $ FoulsDrawn $, $ FoulsCommited $, $ Injury $ and $ Offside $  on the performance variables i.e., $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $ by taking one indipendent variable and using simple linear regresion with each of the responses. We have concluded the result using $ R^2 $, Adjusted $ R^2 $ and $ p-value $ of the models. 
+
+\subsection{Methodology}
+Here we have used simple linear regresion model. Which is 
+
+\begin{minipage}{0.5\textwidth}
+	$$ Y=\beta_0+\beta_1X+\epsilon $$
+\end{minipage} 
+\hfil
+\begin{minipage}{0.5\textwidth}
+where, $ Y $ is response variable, \\ $ X $ is independent variable, \\
+ $ \epsilon $ is error of the estimate, \\ $ \beta_0 $ is intercept, \\ $ \beta_1 $ is coefficient.
+\end{minipage} 
+
+We fitted the model such a manner that frist we took one of the independent variable $ X $ (say, $ Team $) and create four model for four response variables and conclude them. Similarly then we took another $ X $ (say, $ Manager $) and do the same and so on. 
+
+In oder to do the analysis we have considered the data for 2019/20 and 2020/21 season of football strikers from major five European league i.e, La Liga, Premier League, Serie A, Ligue 1 and Bundesliga. We have collected the data mainly from three websites; bdfutball, whoscored, tranfermarkt, and cross checked the data with official websites of each leagues. 
+
+
+\newpage
+
+\subsection{Analysis}
+\subsubsection{Analysing the effcet of $ Team $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Team $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Team $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+		
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Team}}}\label{table:1}\counterwithin{table:1}{section:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Response : GoalScored}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.155 & 0.1522 & 0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table} 
+	\begin{table}[H]
+		\centering
+		\caption{Response : AssistswGoal}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.1884 & 0.1857 & 0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Response : shotsPerGame }\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.1162 & 0.1133 & 0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+	\begin{table}[H]
+		\centering
+		\caption{Response : aerialWonPerGame}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.0157 & 0.0124 & 0.0283 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+	
+\end{minipage}
+
+	%\end{table}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.25]{Screenshot at 2022-03-03 20-54-25.png}
+		\caption{$ R^2 $ for $ Team $}
+		\label{fig:1}
+	\end{figure}
+	
+Here, we can see that $ p-value $ for every response variables are less than 0.05. But, the value of $ R^2 $ and $ Adjusted ~ R^2 $ are also low. Which means that our model does not explain much of variation of the data but it is significant. i.e. $ Team $ has a significant effect on the performance of a football player.
+
+\newpage	
+
+\subsubsection{Analysing the effcet of $ Manager $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $  and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Manager $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Manager $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+	
+	
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Manager}}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1668 & 0.1641 & 0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.2023 & 0.1996 & 0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1186 & 0.1157 & 0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0359 & 0.0327 & 0.0001 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 20-57-33.png}
+	\caption{$ R^2 $ for $ Manager $}
+	\label{fig:1}
+\end{figure}
+
+Here also we can see that $ p-values $ for the $ Manager $ are less than 0.05 but $ R^2 $s are not that high as well. So, our model is significant and explains more variability than the model with $ Team $. It is better to consider the model than nothing.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ Ligue $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Ligue $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $  and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Ligue $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+	
+	
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Ligue }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0044 & 0.0011 & 0.2486 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0001 & 0 & 0.6351 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+
+\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0015 & 0 & 0.494 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0052 & 0.0019 & 0.2081 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-00-05.png}
+	\caption{$ R^2 $ for $ Ligue $}
+	\label{fig:1}
+\end{figure}
+
+In this case clearly $ p-value $ for every responses are greater than 0.05. And $ R^2 $ are very small. This is the worst case scenario we can think of. So, we can easily conclude that $ Ligue $ alone does not have any effect on the performance.	
+
+\newpage
+	
+\subsubsection{Analysing the effcet of $ Nationality $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Nationality $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Nationality $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+		
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Nationality }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0001 & 0.0 & 0.8769 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0092 & 0.006 & 0.0934 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0001 & 0 & 0.5726 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0077 & 0.0045 & 0.1241 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-08-42.png}
+	\caption{$ R^2 $ for $ Nationality $}
+	\label{fig:1}
+\end{figure}
+
+In the case of $ Nationality $ again it is a low $ R^2 $ with a high $ p-value $. It is worthless to create a model using only $ Nationality $ aginst the performances. 
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ Height $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Height $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Height $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+	
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Height }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0152 & 0.012 & 0.0308 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0414 & 0.0383 & 0.0003 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0027 & 0 & 0.3643 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.3357 & 0.333 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-18-46.png}
+	\caption{$ R^2 $ for $ Height $}
+	\label{fig:1}
+\end{figure}
+
+In this case, $ GoalScored $, $ AssistswGoal $ and $ aerialWonPerGame $ have a $ p-value $ less than 0.05 and $ shotsPerGame $ has a higher $ p-value $. So, $ Height $ has a significant effect on $ GoalScored $, $ AssistswGoal $ and $ aerialWonPerGame $ but not on $ shotsPerGame $. For $ GoalScored $, $ AssistswGoal $ and $ shotsPerGame $ has a low $ R^2 $ and $ Adjusted ~ R^2 $ value and $ aerialWonPerGame $ has a value of 0.333 which is not bad compare to others.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ Weight $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Weight $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Weight $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Weight }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0323 & 0.0292 & 0.0016 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.017 & 0.0138 & 0.0223 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0111 & 0.0078 & 0.0656 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+	\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.2034 & 0.2008 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-25-13.png}
+	\caption{$ R^2 $ for $ Weight $}
+	\label{fig:1}
+\end{figure}
+
+Same as $ Height $ here also we can see that $ GoalScored $, $ AssistswGoal $ and $ aerialWonPerGame $ have a $ p-value $ less than 0.05 and $ shotsPerGame $ has a higher $ p-value $. And the result with $ R^2 $ is also identical to $ Height $ but less extreme.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ BMI $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ BMI $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ BMI $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: BMI }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0137 & 0.0105 & 0.0405 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.002 & 0.0 & 0.4406 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0086 & 0.0053 & 0.1057 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0002 & 0.0 & 0.8197 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-41-47.png}
+	\caption{$ R^2 $ for $ BMI $}
+	\label{fig:1}
+\end{figure}
+
+Although $ Height $ and $ Weight $ have some effect on the responses it is interesting to see that $ BMI $ is an exception. Only $ GoalScored $ has a lesser $ p-value $ than 0.05. And $ R^2 $ are also very very low. So, other than $ GoalScored $ it is meaningless to consider the a model only with $ BMI $ as independent variable, because it is not significant enough and does not explain any effective variability.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ Age $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Age $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Age $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+ 
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Age }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0285 & 0.0253 & 0.003 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0072 & 0.0039 & 0.1381 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0131 & 0.0098 & 0.0453 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0103 & 0.0071 & 0.0756 \\
+			\hline
+		\end{tabular}
+	}
+	%\end{subtable}
+\end{table}	
+\end{minipage}
+	
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-47-14.png}
+	\caption{$ R^2 $ for $ Age $}
+	\label{fig:1}
+\end{figure}
+
+In the case of $ Age $, $ GoalScored $ and $ shotsPerGame $ have $ p-value $ less than 0.05 whereas $ AssistswGoal $ and $ aerialWonPerGame $ have high $ p-value $. So, $ Age $ has some impact on $ GoalScored $ and $ shotsPerGame $ but $ R^2 $ are low that is could not explain much of the variability. It won't be worthless to consider a model with $ Age $.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ MatchPlayed $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ MatchPlayed $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ MatchPlayed $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: MatchPlayed }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.2737 & 0.2714 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.2493 & 0.2469 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1098 & 0.1069 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0012 & 0.0 & 0.5395 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-54-12.png}
+\caption{$ R^2 $ for $ MatchPlayed $}
+\label{fig:1}
+\end{figure}
+
+Here all the responses has a lower $ p-value $ except $ aerialWonPerGame $ which means that $ MatchPlayed $ has a significant effect on the responses except $ aerialWonPerGame $. Here, $ R^2 $(s) are also not that bad what we have seen so far. It is definitely worth it to consider a model where $ Matchplayed $ is a predictor variable.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ SubOn $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ SubOn $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ SubOn $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: SubOn }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1037 & 0.1008 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0932 & 0.0903 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1815 & 0.1788 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0052 & 0.0019 & 0.2099 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 21-59-53.png}
+	\caption{$ R^2 $ for $ SubOn $}
+	\label{fig:1}
+\end{figure}
+
+Here also the result is almost identical to $ MatchPlayed $ but $ R^2 $ are than that with $ MatchPlayed $. It is always better to concider a model with $ SubOn $ as an independent variable. 
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ MinutesPlayed $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ MinutesPlayed $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ MinutesPlayed $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: MinutesPlayed }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.4407 & 0.4388 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.3731 & 0.371 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.3044 & 0.3022 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0109 & 0.0076 & 0.0681 \\
+			\hline
+		\end{tabular}
+	}
+	%	\end{subtable}
+\end{table}	
+\end{minipage}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.24]{Screenshot at 2022-03-03 22-12-40.png}
+	\caption{$ R^2 $ for $ MinutesPlayed $}
+	\label{fig:1}
+\end{figure}
+
+In case of $ MinutesPlayed $, $ p-value $ for $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ is less than 0.05 and $ aerialWonPerGame $ has a $ p-value $ less than 0.1. So, if we give some relaxation there we can safely say that all the four model is significant for all four response variable. The model with $ MinutesPlayed $ provide a higher $ R^2 $ for $ GoalScored $, $ AssistswGoal $ and $ shotsPerGame $ as well comparetively speaking. Which means it explains more about the responses except $ aerialWonPerGame $ than any other in our study. So, it is looks like one of the best scenario when we build a model with one response variable.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ RedCard $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ RedCard $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ RedCard $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: RedCard }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0003 & 0.0 & 0.7691 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0005 & 0.0 & 0.7039 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0103 & 0.007 & 0.0763 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0016 & 0.0 & 0.4797 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-03 22-21-29.png}
+	\caption{$ R^2 $ for $ RedCard $}
+	\label{fig:1}
+\end{figure}
+
+Here we can clearly see that there is no effect of $ RedCard $ on any of the responses as $ p-value $ for every responses are much greater than 0.05 and  Adjusted $R^2 $ are almost 0 for every single one. i.e. It explains totaly no information about any of the response variable. Considering a model with only $ RedCard $ would be a disaster.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ YellowCard $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ YellowCard $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ YellowCard $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: YellowCard }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0224 & 0.0192 & 0.0087 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0081 & 0.0048 & 0.116 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0183 & 0.0151 & 0.0176 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0229 & 0.0197 & 0.008 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-07 11-59-33.png}
+	\caption{$ R^2 $ for $ YellowCard $}
+	\label{fig:1}
+\end{figure}
+
+Unlike $ RedCard $, $ YellowCard $ is signicant enough to consider in a model. As, $ p-value $ for every response variable except $ AssistswGoal $ has a $ p-value $ lower than 0.05. Although, $ YellowCard $ does not explain much about the responses alone but it won't be the worse scenario to create a model with this. 
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ FoulsDrawn $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ FoulsDrawn $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ FoulsDrawn $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: FoulsDrawn }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0815 & 0.0785 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0913 & 0.0883 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1308 & 0.1279 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.01 & 0.0067 & 0.0804 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-07 12-06-22.png}
+	\caption{$ R^2 $ for $ FoulsDrawn $}
+	\label{fig:1}
+\end{figure}
+
+Just like $ MinutesPlayed $ here also if consider  10\% level of significance then model for all four responses are significant otherwise aerialWonPerGame won't be significant enough if we consider 5\% level of significance. Which is not bad itself also. Although $ FoulsDrawn $ can't explain more than 15\% of variability for any case still it won't hurt to consider this in a model.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ FoulsCommited $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ FoulsCommited $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ FoulsCommited $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: FoulsCommited }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.062 & 0.059 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0106 & 0.0074 & 0.0714 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0755 & 0.0724 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.2049 & 0.2023 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-08 20-43-22.png}
+	\caption{$ R^2 $ for $ FoulsCommited $}
+	\label{fig:1}
+\end{figure}
+
+This is kind of identical scenario with the previous one. Here $ AssistswGoal $ is little bit less significance instead of $ aerialWonPerGame $ in the previous one, and it is also explains a maximum of 20\% of variability. So, it is safe to say that we can build a model with $ FoulsCommited $.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ Offside $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Offside $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Offside $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Offside }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : GoalScored}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1933 & 0.1907 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : AssistswGoal}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.0429 & 0.0398 & 0.0003 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+	\centering
+	\caption{Response : shotsPerGame }\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1496 & 0.1468 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Response : aerialWonPerGame}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.1396 & 0.1367 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-08 20-49-38.png}
+	\caption{$ R^2 $ for $ Offside $}
+	\label{fig:1}
+\end{figure}
+
+Here we can see that $ Offside $ has a signicant effect on each of the responses as $ p-value $ for all four response variables are less than 0.05. As, the $ R^2 $ are also not that high which means $ Offside $ alone could not explain much of about the reponses. Although we can consider it in a model which should be better interms of predicting the responses.
+
+\newpage
+
+\subsubsection{Analysing the effcet of $ Injury $ on $ GoalScored $, \\ $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $}
+
+\textbf{Null hypothesis, $ H_0: $} $ Injury $ has no effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $\\
+\textbf{Alternate hypothesis, $ H_1: $} $ Injury $ has some effect on $ GoalScored $, $ AssistswGoal $, $ shotsPerGame $ and $ aerialWonPerGame $
+
+%\begin{table}[H]
+%	\caption{\textbf{\textit{Independent Variable: Injury }}}\label{table:1}
+\begin{minipage}{0.5\textwidth}
+		\begin{table}[H]
+		\centering
+		\caption{Response : GoalScored}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.0015 & 0.0 & 0.5048 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+	\begin{table}[H]
+		\centering
+		\caption{Response : AssistswGoal}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.0032 & 0.0 & 0.3232 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+	
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+		\begin{table}[H]
+		\centering
+		\caption{Response : shotsPerGame }\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.0029 & 0.0 & 0.3991 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+	\begin{table}[H]
+		\centering
+		\caption{Response : aerialWonPerGame}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.0008 & 0.0 & 0.6269 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+	
+\end{minipage}
+%\end{table}	
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{Screenshot at 2022-03-08 20-55-23.png}
+	\caption{$ R^2 $ for $ Injury $}
+	\label{fig:1}
+\end{figure}
+
+This is the opposide of what we see in the previous result. $ p-value $ for each response variables are high and $ R^2 $ are almost zero. It should not be recomended at all to build a model with injury as, it is not significant and explains almost nothing about the responses.
+
+\newpage
+
+\subsection{Conclusion}
+From the above results we can see that $ Injury $, $ Red Card$, $ Nationality $ and $ Ligue $ does not have any effect, at least when we consider these alone, on any of the response variables as $ p-value $ for each of the variables are greater than 0.05. Since, these are not significant enough it does not matter how much variability can be explained by these variables.
+
+On the other hand $ Team $, $ Manager $ and $ Offside $ are significant for all of the responses at 0.05 level of sinificance. That means we can use them as a single variable to develop a model. Although, these  are not able to explain much variability about the responses as the $ R^2 $ value for each responses lies between 0.01 and 0.2 which means these can explain at most 20\% of the variability. But, it could be very helpful if we consider them with other variables.
+
+Now if we talk about physic of a player that is, $ Height $, $ Weight $, $ BMI $ and $ Age $ we can see that $ Height $ and $ Weight $ shares same kind of results. Both are significant for $ GoalScored $, $ AssistswGoal $ and $ aerialWonPerGame $ but not for $ shotsPerGame $ at 0.05 level of significant. $ Height $ explains more variability of $ aerialWonPerGame $ than any other variable in our study. It is very surprizing that where $ Height $ and $ Weight $ are significant for most of the responses $ BMI $ is only significant for $ GoalScored $ with a low $ R^2 $. $ Age $, by the way, is significant for $ GoalScored $ and $ shotsPerGame $ at this level but not for $ AssistswGoal $ and $ aerialWonPerGame $, and explain only 3\% and 1\% of the respective variability.
+
+If we look at fouls, we already seen the effect of $ RedCard $ and $ Offside $. Now the $ YellowCard $ is significant for $ GoalScored $, $ shotsPerGame $ and $ aerialWonPerGame $ at level 0.05 and explains only 1.92\%, 1.51\% and 1.97\% of the variability respectively. But it is not significant for $ AssistswGoal$ at level 0.05. $ FoulsDrawn $ and $ FolusCommited $ have different effect on different responses. At 5\% level $ FoulsDrawn $ is not significant for $ aerialWonPerGame $ whereas $ FoulCommited $ is not only significant but also expains second highest variability. Although both are significant at 10\% level of significance for all the responses and explains upto 20.49\% of variability.
+
+
+Now if we talk about time spend on pitch, that is $ MatchPlayed $, $ SubOn $ and $ MinutesPlayed $ we can see that these are significant for every response variables except $ aerialWonPerGame $ at 0.05 level and explains a good amount of variability for each of the variable compare to others. $ MinutesPlayed $ explains the highest variablility of $ GoalScored $, $ AssistswGoal $ and $ shotsPerGame $ and significant for all four responses at 0.1 level of significance. 
+
+From above we can see that more time a player spend on the pitch more he take a shot or assists other player to score a goal or score a goal. As, there are positive relationship between minutes played and the responses (Figure \ref{MinCor}). But in the case of aerial won height played the main role in our study. As it take more muscular appearance than the others and height have positive correlation (Figure \ref{HeiCor}) with that and able to explain about 33.57\% variability of aeirial won. 
+
+\begin{minipage}{0.4\textwidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Screenshot at 2022-03-31 12-37-21.png}
+		\caption{ Correlation matrix of $ MinutesPlayed $, $ GoalScored $, $ AssistwGoal $, $ shotsPerGame $ and $ aerialWonPerGame $ }
+		\label{fig:1}
+		\label{MinCor}
+	\end{figure} 
+\end{minipage}
+  \hfill
+  \begin{minipage}{0.4\textwidth}
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[scale=0.2]{Screenshot at 2022-04-01 11-42-23.png}
+  		\caption{ Correlation matrix of $ Height $, $ GoalScored $, $ AssistwGoal $, $ shotsPerGame $ and $ aerialWonPerGame $ }
+  		\label{fig:1}
+  		\label{HeiCor}
+  	\end{figure} 
+  	
+  \end{minipage}
+\newpage
+
+\section{Study the multicollinearity between each independent variable}
+\label{MulCor}
+\subsection{Introduction}
+In chapter \ref{var1} we have used only one independent variable to create each model. So, we don't have to worry about collinearity there. But, as we move forword to take more than one variable colinearity become a major issue. Therefore, in this chapter we have studied the colinearity between each independent variable in oder to detect them and deal with them.
+\subsection{Methodology}
+In oder to analyze the multicollinearity we have checked correlation($ \rho $) among the variables. Which is calculated as, $$ \rho(X,Y)=\frac{cov(X,Y)}{\sigma_X\sigma_Y} $$ To get a better view of it and take some decision we have used Variance Inflation Factor (VIF). Which is formulated as, $$ VIF=\frac{1}{1-R^2} $$
+
+A VIF score of 1 is indicate that there is no multicollinearity in the model because of the variable.
+
+A VIF score less than 5 indicate that there is some multicollinearity present in the data but not that severe to draw our attention.
+
+A VIF score more than 10 indicate that there is a major problem in term of multicollinearity and we should take imidiate action. 
+\newpage
+\subsection{Analysis}
+\subsubsection{Measuring the correlations}
+ Following chart shows the correlation between each variables.
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[scale=0.4]{Screenshot at 2022-04-04 12-24-33.png}
+ 	\caption{ Correlation matrix of all independent variables }
+ 	\label{fig:1}
+ \end{figure} 
+ Here we can see that $ Team $ and $ Manager $ has a positive correlation of 0.72. Which is quite high.
+ Similarly $ Height $ and $ Weight $ also have a high positive correlation, as expected. And $ Weight $ and $ BMI $ have 0.61 positive correlation.
+ $ MatchPlayed $ and $ MinutesPlayed $ have a 0.84 positive correlation.
+ $ Offside $ and $ FoulsCommited $ have  0.83 positive correlation.
+ These variables could have a major role in multicollinerity as they are highly corelated.
+ \newpage
+ \subsubsection{Chooseing variable using VIF}
+ It could be possible that VIF varies for different model. Thats why we have calculated VIF for each four responses.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.23]{Screenshot at 2022-04-04 21-22-27.png}
+		\caption{ VIF for every response variables }
+		\label{fig:1}
+	\end{figure} 
+We can see that every graph is identical to each other. So, we have continued with the model include $ GoalScored $ only.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{Screenshot at 2022-04-04 22-09-48.png}
+	\caption{ VIF for $ GoalScored $ }
+	\label{fig:1}
+\end{figure} 
+Here we can clearly see that $ Height $, $ Weight $ and $ BMI $ and $ MatchPlayed $, $ SubOn $ and $ MinutesPlayed $ have a very higher VIF score. So, we can not use $ Height $, $ Weight $ and $ BMI $ together in a model.Similarly, can not use  $ MatchPlayed $, $ SubOn $ and $ MinutesPlayed $ in a model. As, $ Height $ explains maximum variability about $ aerialWonPerGame $ and $ MinutesPlayed $ explains maximum variability of $ GoalScored $, $ AssistswGoal $ and $ shotsPerGame $ it is wise not to drop these two variables. So, we drop $ Weight $ at first.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{Screenshot at 2022-04-05 13-31-47.png}
+	\caption{ VIF for $ GoalScored $ after droping $ Weight $ }
+	\label{fig:1}
+\end{figure} 
+
+After droping $ Weight $ we can see that the VIF score of $ Height $ and $ BMI $ go low but the values for $ MatchPlayed $, $ SubOn $ and $ MinutesPlayed $ are still higher than 10. So, we drop $ MatchPlayed $ as it has a higher correlation with $ MinutesPlayed $.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{Screenshot at 2022-04-05 12-54-30.png}
+	\caption{ VIF for $ GoalScored $ after droping $ Weight $ and $ MatchPlayed $}
+	\label{fig:1}
+\end{figure} 
+
+After droping $ Weight $ and $ MatchPlayed $ we can see that VIF score for each variable is less than 5. Which means that if we do not use these two variable in our analysis we do not have to worry about multicollinearity any more.
+\subsection{Conclusion}
+From above it is clear that we can not use $ Height $ and $ Weight $ in the same model. Similarly we can not use $ MatchPlayed $ and $ MinutesPlayed $ both in a model. These two variables of our study cause the multicollinearity apart from these two variable we can use every other variables together in same model without worring about multicollinearity. 
+
+In this study we can see that $ Team $ and $ Manager $, $ FoulsCommited $ and $ Offside $, $ FoulsCommited $ and $ FoulsDrawn $, $ Offside $ and $ MinutesPlayed $, $ FoulsDrawn $ and $ MinutesPlayed $ also have high corellations.
+
+Even if all these variables are highly correlated they are not that effective when considered for multicollinearity.
+
+From this study on the basis of our data we are safe to say that high correlations always does not mean multicollinearity.
+
+\newpage
+\section{Study the effects of a pair of non-skilled variables on the performance of football strikers}
+\label{var2}
+\subsection{Introduction}
+From chapter \ref{var1}, we have seen that different variables have different effect on the performance variables. Some variable explain much variability of one response and result poor for the others. In this chapter we have take two independent variables with each of the responses to create the model and seen the improvement of the models because of these combinations of variables. 
+
+Unlike chapter \ref{var1} here we have to consider the multicorlinearity as well. From chapter \ref{MulCor} we have seen that combination of $ Height $ \& $ Weight $ and $ MatchPlayed $ \& $ MinutesPlayed $ are the root of muticollinearity. So, we have not use them together to create a model.
+\subsection{Methodology}
+Here we have used multiple linear regresion model for two independent variable. Which is
+
+\begin{minipage}{0.5\textwidth}
+	$$ Y=\beta_0+\beta_1X_1+\beta_2X_2+\epsilon $$
+\end{minipage} 
+\hfill 
+\begin{minipage}{0.5\textwidth}
+	where, $ Y $ is response variable, \\ $ X_1 $ and $ X_2 $ are independent variables,\\
+	$ \epsilon $ is error of the estimate, \\ $ \beta_0 $ is intercept, \\ $ \beta_1 $ and $ \beta_2 $ are coefficients.
+\end{minipage} 
+
+In chapter \ref{var1}, we have seen that $ MinutesPlayed $ explains the maximum variability of 
+$ GoalScored $, $ AssistswGoal $ and $ shotsPerGame $ and $ Height $ explains the maximum variability of $ aerialWonPerGame $ . 
+
+So, in case of $ GoalScored $, $ AssistswGoal $ and $ shotsPerGame $ we have fixed $ X_1 $ as $ MinutesPlayed $ and made model with each of the other variables and take only those which has a $ p-value $ less than 0.05 and a higher adjusted $ R^2 $ that of with the model when we take on $ MinutesPlayed $ in Chapter \ref{var1} for these  three variable. 
+
+Similarly, for $ aerialWonPerGame $ we have fixed $ Height $ as $ X_1 $ and take combination of other variables and conclude the result.
+
+
+In oder to do the analysis we have considered the data for 2019/20 and 2020/21 season of football strikers from major five European league i.e, La Liga, Premier League, Serie A, Ligue 1 and Bundesliga. 
+
+\newpage
+\subsection{Analysis}
+\subsubsection{Analysing the combined effect of $ MinutesPlayed $ and every other varibale on $ GoalScored $}
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Team}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4846 & 0.4812 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Manager}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.49 & 0.4866 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Height}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4511 & 0.4475 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Weight}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4601 & 0.4565 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& BMI}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4471 & 0.4435 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Age}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4585 & 0.455 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& SubOn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4427 & 0.4391 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& RedCard}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4433 & 0.4397 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& YellowCard}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4473 & 0.4437 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& FoulsDrawn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4508 & 0.4471 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& FoulsCommited}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4478 & 0.4441 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Offside}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4437 & 0.44 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Injury}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4678 & 0.4643 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.46]{Screenshot at 2022-04-06 11-00-23.png}
+	\caption{ $ R^2 $ values for different variables that combined with $ MinutesPlayed $ to explain more variability of $ GoalScored $}
+	\label{fig:1}
+	\label{var2GS}
+\end{figure} 
+
+From Figure \ref{var2GS}, we can clearly see that When $ MinutesPlayed $ combined with $ Manager $ it is able to explain more variability than its combine with others.
+\newpage
+\subsubsection{Analysing the combined effect of $ MinutesPlayed $ and every other varibale on $ AssistwGoal $}
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Team}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4448 & 0.4412 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Manager}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4524 & 0.4488 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Height}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4228 & 0.419 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Weight}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4014 & 0.3975 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Ligue}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.377 & 0.3729 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Age}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3758 & 0.3717 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& SubOn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3757 & 0.3716 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Nationality}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3781 & 0.3741 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& YellowCard}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3889 & 0.3849 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& FoulsCommited}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4223 & 0.4185 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Offside}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4113 & 0.4074 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+\begin{table}[H]
+	\centering
+	\caption{Independent Variables : MinutesPlayed \& Injury}\label{table:1a}
+	{\begin{tabular}{|c|c|c|}
+			\hline
+			$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+			\hline
+			0.3897 & 0.3857 & 0.0 \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+\end{minipage}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Screenshot at 2022-04-06 11-41-48.png}
+	\caption{ $ R^2 $ values for different variables that combined with $ MinutesPlayed $ to explain more variability of $ AssistwGoal $}
+	\label{fig:1}
+	\label{var2AG}
+\end{figure} 
+
+Here also we can see that the combination of $ MinutesPlayed $ and $ Manager $ explains more variability than other, which is aproximately 45.24\%.
+
+\newpage
+\subsubsection{Analysing the combined effect of $ MinutesPlayed $ and every other varibale on $ shotsPerGame $}
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Team}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.34 & 0.3356 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Manager}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3404 & 0.3361 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Nationality}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3074 & 0.3029 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Weight}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3095 & 0.305 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& BMI}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3083 & 0.3038 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Age}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3117 & 0.3071 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& SubOn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3496 & 0.3453 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& RedCard}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3097 & 0.3052 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& YellowCard}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3076 & 0.303 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& FoulsDrawn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3088 & 0.3043 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Offside}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3096 & 0.3051 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : MinutesPlayed \& Injury}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3531 & 0.3489 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Screenshot at 2022-04-07 11-03-37.png}
+	\caption{ $ R^2 $ values for different variables that combined with $ MinutesPlayed $ to explain more variability of $ shotsPerGame $}
+	\label{fig:1}
+	\label{var2SPG}
+\end{figure} 
+
+Here we can see that, unlike $ GoalScored $ and $ AssistwGoal $, when we take the combination of $ MinutesPlayed $ and $ Injury $ it is able to explain more variability than other combinations.
+\newpage
+\subsubsection{Analysing the combined effect of $ Height $ and every other varibale on $ aerialWonPerGame $}
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& Team}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3468 & 0.3425 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& Manager}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3518 & 0.3475 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& Ligue}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3433 & 0.339 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& BMI}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.339 & 0.3347 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& Age}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3465 & 0.3422 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& SubOn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3444 & 0.3401 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& MinutesPlayed}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.343 & 0.3387 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& YellowCard}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3579 & 0.3537 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& FoulsDrawn}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.3544 & 0.3502 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& FoulsCommited}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.446 & 0.4424 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+	\begin{table}[H]
+		\centering
+		\caption{Independent Variables : Height \& Offside}\label{table:1a}
+		{\begin{tabular}{|c|c|c|}
+				\hline
+				$ R^2 $ & Adjusted $ R^2 $ & p-value \\
+				\hline
+				0.4036 & 0.3997 & 0.0 \\
+				\hline
+			\end{tabular}
+		}
+	\end{table}
+\end{minipage}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Screenshot at 2022-04-07 12-19-33.png}
+	\caption{ $ R^2 $ values for different variables that combined with $ Height $ to explain more variability of $ aerialWonPerGame $}
+	\label{fig:1}
+	\label{var2AWPG}
+\end{figure} 
+
+In Firgure \ref{var2AWPG} We can see that when we combined $ Height $ and $ FoulsCommited $ we are able to explain about 44.6\% variability of $ aerialWonPerGame $, which is the highest among all the combination.
+
+\newpage
+\subsection{Conclusion}
+In this chapter we have seen the combined effect of two independent variables on each of dependent variables and the improvement in order to explain the variability of response variables.
+
+From chapter \ref{var1} we have seen that $ MinutesPlayed $ expain the maximum variability of $ GoalScored $. It is able to explain 44.07\% of variability by itself. In this chapter we can see that when we take combination of $ MinutesPlayed $ with other variables pair-wise only 13 combinations has the $ R^2 $ more than 44.07\% which are, $ Age $, $ BMI $, $ FoulsCommited $, $ FoulsDrawn $, $ Height $, $ Injury $, $ Manager $, $ Offside $, $ RedCard $, $ SubOn $, $ Team $, $ Weight $ and $ YellowCard $. Among which, the combination of $ Manager $ and $ MinutesPlayed $ have explained maxmimum about $ GoalScored $ with a improvement of 4.93\%. 
+
+
+
+
+
+ 
+	
+\end{document}
